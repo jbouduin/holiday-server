@@ -4,7 +4,7 @@
   "description": "A node express server using @jbouduin/holidays",
   "main": "server/index.ts",
   "dependencies": {
-    "@jbouduin/holidays": "0.0.1-alpha.2",
+    "@jbouduin/holidays": "0.0.1-alpha.3",
     "express": "^4.17.1",
     "http-status-codes": "^1.4.0"
   },

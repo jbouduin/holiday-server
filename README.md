@@ -1,2 +1,5 @@
 # holiday-server
- A sample node-express server using holidays
+This is a demo-server implementation using the [@jbouduin/holiday](https://github.com/jbouduin/holiday) npm-package.
+The server itself is implemented very rudimentary and there is plenty of room for improvement.
+
+![screenshot](api-server.jpg)

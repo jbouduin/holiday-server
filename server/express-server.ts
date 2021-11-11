@@ -23,8 +23,8 @@ export class ExpressServer {
   // </editor-fold>
 
   // <editor-fold desc='Public methods'>
-  public setup(port: number): Express {
-    const server = express()
+  public setup(port: number): Express | undefined {
+    const server = express();
     this.configureApiEndpoints(server);
     this.httpServer = this.listen(server, port)
     this.server = server

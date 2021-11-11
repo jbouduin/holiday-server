@@ -1,4 +1,4 @@
-import { Application } from './application'
+import { HolidayServer } from './holiday-server'
 
 /**
  * Entrypoint for bootstrapping and starting the application.
@@ -6,6 +6,6 @@ import { Application } from './application'
  * This is about to come later!
  */
 
-Application.createApplication().then(() => {
+HolidayServer.createApplication().then(() => {
     console.info('The application was started! Kill it using Ctrl + C')
 })

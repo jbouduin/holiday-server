@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response } from 'express'
-import * as HttpStatus from 'http-status-codes'
 import { Holidays } from '@jbouduin/holidays';
 
 export class HolidayService {

@@ -3,7 +3,8 @@
     "outDir": "./built",
     "allowJs": true,
     "target": "es6",
-    "esModuleInterop": false
+    "esModuleInterop": false,
+    "moduleResolution": "node"
   },
   "include": [
     "./server/**/*"
